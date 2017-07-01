@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 <style>
 body{
-	/* background-color:lightblue; */
 	height:100%;
 	width:100%;
 	background-image:url("http://dine-media.com/system/images/images/000/000/011/original/unix-wallpaper.png?1456980282");
