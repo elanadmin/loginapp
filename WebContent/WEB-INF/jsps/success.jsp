@@ -5,8 +5,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
+<style>
+body{
+	/* background-color:lightblue; */
+	height:100%;
+	width:100%;
+	background-image:url("http://dine-media.com/system/images/images/000/000/011/original/unix-wallpaper.png?1456980282");
+	background-repeat: no-repeat;
+	background-size:cover;		
+	}
+</style>
 </head>
 <body>
-	<font color="green">Hurray...Login Success...</font>
+<br><br><br><br><br>
+<center><h1><font color="orange"> <b> WELCOME TO LOGINAPP DESIGNED AT ELAN TECHNOLOGIES </b></font></h1></center>
 </body>
 </html>
