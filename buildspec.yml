@@ -9,6 +9,7 @@ phases:
     commands:
       - ln -sf target wars
       - mv target/LoginApp*.war target/loginapp.war
+      - cp -rp appspec.yml buildspec.yml target/
       - echo "******** Uploading to S3 ********"
 artifacts:
   files:
