@@ -1,5 +1,8 @@
 version: 0.0
 os: linux
+files:
+   - source: /wars/*
+     destination: /var/lib/tomcat7/webapps
 hooks:
    BeforeInstall:
     - location: scripts/deploywar.sh
