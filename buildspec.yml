@@ -1,8 +1,10 @@
 version: 0.1
 phases:
+  pre_build:
+    commands:
+      git checkout development
   build:
     commands:
-      - git checkout development
       - mvn clean
       - mvn install
       - mvn package
