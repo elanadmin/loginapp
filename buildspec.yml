@@ -9,7 +9,6 @@ phases:
     commands:
       - mv target/LoginApp*.war target/loginapp.war
       - echo "******** Uploading to S3 ********"
-      - aws s3 sync target/loginapp.war s3://elanrepo/tomcat/wars
 artifacts:
   files:
     - target/loginapp.war
