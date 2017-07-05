@@ -14,3 +14,5 @@ phases:
 artifacts:
   files:
     - wars/loginapp.war
+    - wars/appspec.yml
+    - wars/buildspec.yml
