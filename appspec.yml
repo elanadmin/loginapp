@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-   - source: /wars/*
+   - source: /wars/loginapp.war
      destination: /var/lib/tomcat7/webapps
 hooks:
    BeforeInstall:
