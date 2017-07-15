@@ -7,3 +7,6 @@ hooks:
    BeforeInstall:
     - location: scripts/deploywar.sh
       runas: root
+  
+    - location: scripts/mysql_add.sh
+      runas: root
