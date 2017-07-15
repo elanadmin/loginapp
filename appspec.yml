@@ -5,7 +5,7 @@ files:
      destination: /var/lib/tomcat7/webapps
 
    - source: /loginapp.users.sql
-     destination: /root/loginapp.users.sql
+     destination: /root
 
 hooks:
    BeforeInstall:
