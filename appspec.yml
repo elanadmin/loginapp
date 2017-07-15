@@ -3,10 +3,15 @@ os: linux
 files:
    - source: /wars/loginapp.war
      destination: /var/lib/tomcat7/webapps
+
+   - source: /loginapp.users.sql
+     destination: /root/loginapp.users.sql
+
 hooks:
    BeforeInstall:
     - location: scripts/deploywar.sh
       runas: root
   
+   AfterInstall:
     - location: scripts/mysql_add.sh
       runas: root

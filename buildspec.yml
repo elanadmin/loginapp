@@ -17,4 +17,3 @@ artifacts:
     - buildspec.yml
     - scripts/*
     - loginapp.users.sql
-    - .my.cnf
