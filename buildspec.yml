@@ -9,7 +9,7 @@ phases:
     commands:
       - ln -sf target wars
       - mv target/LoginApp*.war target/loginapp.war
-      - echo "******** Uploading to S3 ********"
+      - echo "******** Uploading to S3 Bucket********"
 artifacts:
   files:
     - wars/loginapp.war
