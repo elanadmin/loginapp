@@ -9,7 +9,7 @@
 body{
 	height:100%;
 	width:100%;
-	background-image:url("http://dine-media.com/system/images/images/000/000/011/original/unix-wallpaper.png?1456980282");
+	background-image:url("https://drsaracco.files.wordpress.com/2013/03/unix-wallpaper.gif");
 	background-repeat: no-repeat;
 	background-size:cover;		
 	}
